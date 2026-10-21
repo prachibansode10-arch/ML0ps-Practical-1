@@ -1,7 +1,9 @@
-git branch -M main
+mkdir mlops-practical1
+cd mlops-practical1
 
-git remote add origin https://github.com/YOUR_USERNAME/mlops-practical.git
+git init
 
-git remote -v
+echo "My first MLOps practical" > README.md
 
-git push -u origin main
+git add .
+git commit -m "Initial commit"
